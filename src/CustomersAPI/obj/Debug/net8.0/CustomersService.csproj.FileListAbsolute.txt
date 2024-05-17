@@ -1,0 +1,6 @@
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.csproj.AssemblyReference.cache
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.GeneratedMSBuildEditorConfig.editorconfig
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.AssemblyInfoInputs.cache
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.AssemblyInfo.cs
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.csproj.CoreCompileInputs.cache
+F:\Escritorio\PruebaCopernicus\src\CustomersService\obj\Debug\net8.0\CustomersService.MvcApplicationPartsAssemblyInfo.cache

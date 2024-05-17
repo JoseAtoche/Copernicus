@@ -1,0 +1,17 @@
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Domain.deps.json
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Domain.dll
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Domain.pdb
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Core.dll
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Repository.dll
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Core.pdb
+F:\Escritorio\PruebaCopernicus\Domain\bin\Debug\net8.0\Repository.pdb
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.dll
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\refint\Domain.dll
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\Domain.pdb
+F:\Escritorio\PruebaCopernicus\Domain\obj\Debug\net8.0\ref\Domain.dll

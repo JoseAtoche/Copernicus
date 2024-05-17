@@ -1,0 +1,15 @@
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+F:\Escritorio\PruebaCopernicus\Repository\bin\Debug\net8.0\Repository.deps.json
+F:\Escritorio\PruebaCopernicus\Repository\bin\Debug\net8.0\Repository.dll
+F:\Escritorio\PruebaCopernicus\Repository\bin\Debug\net8.0\Repository.pdb
+F:\Escritorio\PruebaCopernicus\Repository\bin\Debug\net8.0\Core.dll
+F:\Escritorio\PruebaCopernicus\Repository\bin\Debug\net8.0\Core.pdb
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.dll
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\refint\Repository.dll
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\Repository.pdb
+F:\Escritorio\PruebaCopernicus\Repository\obj\Debug\net8.0\ref\Repository.dll
