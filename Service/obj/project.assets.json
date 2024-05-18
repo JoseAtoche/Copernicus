@@ -3321,11 +3321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Escritorio\\PruebaCopernicus\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\source\\Copernicus\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "F:\\Escritorio\\PruebaCopernicus\\Service\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\source\\Copernicus\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3342,11 +3342,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj": {
-              "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj"
+            "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj"
             },
-            "F:\\Escritorio\\PruebaCopernicus\\Domain\\Domain.csproj": {
-              "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Domain\\Domain.csproj"
+            "C:\\Users\\usuario\\source\\Copernicus\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Domain\\Domain.csproj"
             }
           }
         }

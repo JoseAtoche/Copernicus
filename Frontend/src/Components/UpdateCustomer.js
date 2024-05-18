@@ -37,12 +37,14 @@ function UpdateCustomer() {
     }, [location.pathname, idCustomer]);
 
     return (
-        <div className="centered-container">
-            {errorApi ? (
-                <h1>Error de conexion con el Servidor</h1>
-            ) : (
-                <Form customer={customer} />
-            )}
+        <div className="d-flex justify-content-center align-items-center vh-100">
+            <div className="centered-container text-center">
+                {errorApi ? (
+                    <h1>Error de conexión con el Servidor</h1>
+                ) : (
+                    <Form customer={customer} />
+                )}
+            </div>
         </div>
     );
 

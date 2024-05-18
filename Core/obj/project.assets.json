@@ -212,11 +212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

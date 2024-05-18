@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sl/cRPz2P1K+Ln62z1/2eMa6DJ+n/aonV2buACHSFvF8uhThZLwyj7EvTZ0HA6GQ2clx4JV9dlk4QP11fDLutg==",
+  "dgSpecHash": "XeCR1FZz6lUlbmWZ2oN61GU40xPPAVAX99WHF6EjIoAybHf7cEXjnX4tTITqw66nrj65nqwYY0+hxwyLtwlu9w==",
   "success": true,
-  "projectFilePath": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

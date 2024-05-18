@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JAtlqbiKJb8aoZsgWtnYnNcRY/yxfKzbN8NqwJr0hneqP9E4QqNHhfrJc8xUQJW6qgdYwLG+WXb9vVblZ1Gjcg==",
+  "dgSpecHash": "28FXIAJz0hvWQmOzCWw/4AxAGwsujlJ8RuHClr5PBazeaAuxrB3i+m7PVQ/BkVUecWGHXuxo25rsYTWzeASQFA==",
   "success": true,
-  "projectFilePath": "F:\\Escritorio\\PruebaCopernicus\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\source\\Copernicus\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

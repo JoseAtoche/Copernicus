@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Escritorio\\PruebaCopernicus\\Repository\\Repository.csproj": {}
+    "C:\\Users\\usuario\\source\\Copernicus\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj": {
+    "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "F:\\Escritorio\\PruebaCopernicus\\Repository\\Repository.csproj": {
+    "C:\\Users\\usuario\\source\\Copernicus\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Escritorio\\PruebaCopernicus\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\source\\Copernicus\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "F:\\Escritorio\\PruebaCopernicus\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\source\\Copernicus\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj": {
-                "projectPath": "F:\\Escritorio\\PruebaCopernicus\\Core\\Core.csproj"
+              "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\usuario\\source\\Copernicus\\Core\\Core.csproj"
               }
             }
           }
@@ -119,7 +119,19 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.5, )"
             },

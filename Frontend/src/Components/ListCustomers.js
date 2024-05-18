@@ -5,6 +5,7 @@ import { Bounce, toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pagination from "./Pagination";
+import useRetryTimer from "./RetryTimer";  // Importa el nuevo hook
 
 export const ListCustomers = () => {
     const [customers, setCustomers] = useState([]);
@@ -12,10 +13,14 @@ export const ListCustomers = () => {
     const [errorApi, setErrorApi] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [customersPerPage] = useState(10); // Número de clientes por página
-    const [retryTime, setRetryTime] = useState(5); // Tiempo para reintentar en segundos
-
     const location = useLocation();
     const url = "http://localhost:7001/api/customers/";
+
+    const onRetryTimeout = useCallback(() => {
+        fetchData(); // Vuelve a intentar obtener los datos cuando el tiempo de reintentos llegue a cero
+    }, []);
+
+    const [retryTime, setRetryTime] = useRetryTimer(5, onRetryTimeout);  // Usa el nuevo hook
 
     const fetchData = useCallback(async () => {
         try {
@@ -32,7 +37,7 @@ export const ListCustomers = () => {
             setShowLoader(false);
             setRetryTime(5); // Reiniciar el tiempo de reintentos si hay un error
         }
-    }, [url]);
+    }, [url, setRetryTime]);
 
     const deleteCustomer = async (idCustomer) => {
         try {
@@ -73,22 +78,6 @@ export const ListCustomers = () => {
         }
     }, [location.pathname, customers.length, fetchData]);
 
-    useEffect(() => {
-        if (errorApi) {
-            const timer = setInterval(() => {
-                setRetryTime((prevTime) => prevTime - 1);
-            }, 1000);
-
-            return () => clearInterval(timer);
-        }
-    }, [errorApi]);
-
-    useEffect(() => {
-        if (retryTime === 0) {
-            window.location.reload(); // Recargar la página cuando el tiempo de reintentos llegue a cero
-        }
-    }, [retryTime]);
-
     const indexOfLastCustomer = currentPage * customersPerPage;
     const indexOfFirstCustomer = indexOfLastCustomer - customersPerPage;
     const currentCustomers = customers.slice(indexOfFirstCustomer, indexOfLastCustomer);
@@ -101,11 +90,13 @@ export const ListCustomers = () => {
                 <Loader setShowLoader={setShowLoader} />
             ) : (
                 <div className="container mt-5">
-                    {errorApi ? (
-                        <div className="text-center">
-                            <h1>Error de conexión con el Servidor</h1>
-                            <p>Reintentando en {retryTime} segundos</p>
-                        </div>
+                        {errorApi ? (
+                            <div className="d-flex justify-content-center align-items-center vh-100">
+                                <div className="centered-container text-center">
+                                    <h1>Error de conexión con el Servidor</h1>
+                                    <p>Reintentando en {retryTime} segundos</p>
+                                </div>
+                            </div>
                     ) : (
                         <div>
                             <ToastContainer
@@ -129,7 +120,6 @@ export const ListCustomers = () => {
                                 <table className="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Id</th>
                                             <th>Email</th>
                                             <th>Nombre</th>
                                             <th>Apellido</th>
@@ -142,7 +132,6 @@ export const ListCustomers = () => {
                                     <tbody>
                                         {currentCustomers.map((item) => (
                                             <tr key={item.id}>
-                                                <td>{item.id}</td>
                                                 <td>{item.email}</td>
                                                 <td>{item.first}</td>
                                                 <td>{item.last}</td>

@@ -19,9 +19,11 @@ const Loader = ({ setShowLoader }) => {
     }, [setShowLoader]);
 
     return (
-        <div className="loader">
-            <br />
-            <h1 style={{ color: "black" }}>Cargando{dots}</h1>
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div className="loader text-center">
+                <br />
+                <h1>Cargando{dots}</h1>
+            </div>
         </div>
     );
 };
